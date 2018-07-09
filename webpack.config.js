@@ -4,19 +4,18 @@ module.exports = {
     path: __dirname,
     publicPath: "/",
     filename: "bundle.js"
-  },
+  },watch: true,
   module: {
-    loaders: [
+    rules: [
       {
         exclude: /node_modules/,
-        loader: "babel"
+        loader: "babel-loader"
       }
     ]
   },
   resolve: {
-    extensions: ["", ".js", ".jsx"]
+    extensions: ["*" ,".js", ".jsx"]
   },
   devServer: {
     contentBase: "./"
-  }
-};
+  }}

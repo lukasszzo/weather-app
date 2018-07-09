@@ -1,13 +1,14 @@
 {
-  "name": "weather app",
+  "name": "weather-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "repository": "",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
   },
   "author": "",
-  "license": "",
+  "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.2.1",
     "babel-loader": "^6.2.0",
